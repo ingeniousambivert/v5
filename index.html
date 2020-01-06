@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="title" content="Portfolio Website" />
+    <meta
+      name="description"
+      content="Portfolio of a fullstack fullstack - Monarch Maisuriya. Online alias - @ingeniousambivert"
+    />
+    <meta name="keywords" content="portfolio,ingeniousambivert,fullstack,developer" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Monarch Maisuriya" />
+
+     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="{{'./img/favicon.ico' | relURL}}"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="{{'./img/favicon.ico' | relURL}}"
+      type="image/x-icon"
+    />
+     <!--Typeit JS-->
+    <script src="./js/typeit.min.js"></script>
+    <script src="./js/typeit.js"></script>
+
+    <!-- Typeit JS Instance-->
+    <script type="text/javascript">
+      type_it = () => {
+        return new TypeIt("#subhead", {
+          strings: [
+            "Browse my growing portfolio of progressive development, feel free to drop a line."
+          ],
+          speed: 80,
+          breakLines: false,
+          autoStart: false,
+          loop: false
+        });
+      };
+    </script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" onload="type_it();" data-target="#navbar-nav-header" class="static-layout">
+	<div class="boxed-page">
+		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>	
+<div id="hero-bg" class="jumbotron animated bounceIn d-flex align-items-center" style="background-image: url(img/hero-1.jpg)">
+  <div class="container text-center mt-10">
+    <h1 id="main-head" class="display-2 mb-4 mt-10">COMPUTER WHISPERER</h1>
+    <p id="subhead">Browse my growing portfolio of progressive development. Feel free to drop a line.</p>
+  </div>
+</div>	
+	<section id="about" class="bg-white">
+    <div class="container" >
+        <div class="section-content">
+            <div class="title-wrap" style="padding:2%;">
+                <h2 class="section-title">If you were wondering what this is all about ...</h2>
+                <p class="section-sub-title">I am a self-taught developer from
+            <a
+              href="https://medium.com/@.s/india-is-the-greatest-country-in-the-world-dae29e4c8e6b"
+              target="_blank"
+              ><strong>India</strong></a
+            >
+            I am an inquisitive experimenter, I’ve had opportunities to learn &
+            pursue programming to develop excellent software. I've always been
+            enthusiastic about technology. My skills are broad from front-end to
+            back-end development. I enjoy each aspect, & love building websites
+            & applications from start to finish. I'm available for remote work -
+            if you would like to build something together,
+            <a href="#contact"><strong>get in touch.</strong></a></p>
+            </div>
+        </div>
+    </div>
+</section>	
+<section class="overlay bg-fixed">
+    <div class="container">
+        <div class="section-content">
+            <section>
+                <h2 class="section-title"
+                style="text-align: center; color:white">Inspiration</h2>
+                <blockquote id="quote"></blockquote>
+              </section>
+        </div>
+    </div>
+</section>
+<section  id="skills" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">
+                    All the  <span>need </span>that you <span>want</span>
+                </h2>
+                <p class="section-sub-title">I am great at and I can work with.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Features Holder-->
+                <div class="col-md-12 features-holder">
+                    <div class="row">
+                        <!-- Features Item -->
+                        <div class="col-md-6 col-sm-6 feature-item item mb-3 mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-magic-wand fs-40"></i>
+                            </div>
+                            <h4>Front-End Development</h4>
+                            <p>I can create websites and SPAs with ReactJS also I can work with all modern frameworks and libraries.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-6 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-cloud-check fs-40"></i>
+                            </div>
+                            <h4>Back-End Development</h4>
+                            <p>I can create servers with PHP, NodeJS, Express and work with SQL and NoSQL Databases.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-6 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-laptop-phone fs-40"></i>
+                            </div>
+                            <h4>Full Stack Development</h4>
+                            <p>I can create progressive/web-apps with MERN Stack, JAM Stack and PHP Stacks.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-6 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <i class="lnr lnr-smartphone fs-40"></i>
+                            </div>
+                            <h4>Application Development</h4>
+                            <p>I can create multi-platform hybrid applications with React Native, Ionic Framework and Flutter.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                    </div>
+                </div>
+                <!-- End of Features Holder-->
+            </div>
+        </div>
+    </div>
+</section>
+<section id="work" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">
+                    All that  <span>I've </span>worked on<span>
+                </h2>
+                <p class="section-sub-title">Some of my recent work.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Features Holder-->
+                <div class="col-md-12 features-holder">
+                    <div class="row">
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 mb-3 text-center">
+                            <div class="my-4">
+                                <img class="project-img" width="250" src="img/swich.png" alt="">
+                            </div>
+                            <h4>Swich Developers</h4>
+                            <p>Swich Developers is a portfolio website for a group of freelancers.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <img class="project-img" width="250" src="img/codershive.png" alt="">
+                            </div>
+                            <h4>codersHive</h4>
+                            <p>cHive is a community and a project management tool for developers.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-6 feature-item item mb-3 text-center">
+                            <div class="my-4">
+                                <img class="project-img" width="250" src="img/aucms.png" alt="">
+                            </div>
+                            <h4>AU-CMS</h4>
+                            <p>Content Management System for Ahmedabad University.</p>
+                        </div>
+                        <!-- End of Feature Item -->
+                       
+                </div>
+                <!-- End of Features Holder-->
+            </div>
+            <div class="title-wrap" style="padding:2%; margin-top:2%;">
+                <h4 class="section-title">A brief of my
+              <a href="https://www.github.com/ingeniousambivert" target="_blank"
+                >GitHub</a
+              >, so you get an idea of my work.</h4>
+                <div class="repo-container">
+              <div class="row" id="output">
+              <!--Fetching Github repos-->
+             </div>
+          </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-sub-title">Interested in my work or wanna collab on an upcoming project ?<br />
+              Queue up a chat !</p>
+
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Contact Form Holder -->
+                <div class="col-md-8 offset-md-2 contact-form-holder mt-4">
+                    <form action="https://formspree.io/monarchmaisuriya7600@gmail.com"
+                  method="POST" name="contact-us">
+                        <div class="row">
+                            <div class="col-md-6 form-input">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6 form-input">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="john@doe.com">
+                            </div>
+                            <div class="col-md-12 form-input">
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                    placeholder="Debug the world">
+                            </div>
+                            <div class="col-md-12 form-textarea">
+                                <textarea class="form-control" id="message" name="message" rows="6"
+                                    placeholder="Languages are your power & variables your slaves, Mr.Programmer."></textarea>
+                            </div>
+                            <div class="col-md-12 form-btn text-center">
+                                <button class="btn btn-block btn-secondary btn-red" type="submit" name="submit"
+                                   >Send Message</button>
+
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+                <!-- End of Contact Form Holder -->
+            </div>
+        </div>
+    </div>
+</section>
+	<footer class="mastfoot mb-3 bg-white py-4 border-top">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-md-6 d-flex justify-content-md-start justify-content-center">
+         	 <a style='color:#6e6096'href="mailto:monarchmaisuriya7600@gmail.com">
+                 Made with ❤ <br>
+                monarchmaisuriya7600@gmail.com
+            </a>
+         	</div>
+            <div class="col-md-6" id="social-links">
+                <a style="padding:0 2%"
+                href="https://www.facebook.com/ingeniousambivert"
+                target="_blank"
+                class="fab fa-facebook"
+                ></a>
+	            <a style="padding:0 2%"
+                href="https://www.instagram.com/ingeniousambivert"
+                target="_blank"
+                class="fab fa-instagram"
+                ></a>
+                <a style="padding:0 2%"
+                href="https://www.github.com/ingeniousambivert"
+                target="_blank"
+                class="fab fa-github"
+                ></a>
+                <a style="padding:0 2%"
+                href="https://www.eyeem.com/ingeniousambivert"
+                target="_blank"
+                class="fas fa-camera"
+                ></a> 
+          </div>
+        </div>
+    </div>
+</footer>	
+
+	<!-- External JS -->
+    <script src="https://kit.fontawesome.com/9ea3476bf6.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	<script src="vendor/countTo/jquery.countTo.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>
